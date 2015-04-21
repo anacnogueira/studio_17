@@ -1,0 +1,51 @@
+#ytvideo
+ {
+    float: left;
+	margin-right:10px;
+}
+
+
+.yt_holder {
+    
+    padding: 20px;
+    float: left;
+
+	margin-bottom:15px;
+}
+
+
+ul.videos {
+    float: left;
+    margin: 0;
+    padding: 0;
+    width: 280px;
+    margin-left: 20px;
+}
+
+ul.videos li {
+  list-style-type: none;
+  display:inline;
+  float: left;
+  width: 120px;
+  margin: 5px;
+	padding:2px;
+  margin-top: 0px;
+}
+
+ul.videos li img {
+    width: 120px;
+    float: left;
+    margin-right: 5px;
+
+}
+
+ul.videos li a {
+    font-family: georgia;
+    text-decoration: none;
+    display: block;
+    color: #000;
+}
+
+.currentvideo {
+	
+}

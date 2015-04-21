@@ -1,0 +1,45 @@
+#menu {
+   position: relative;
+   background: #888;
+   height: 30px;
+   padding: 5px;
+  
+}
+
+#menu, #menu ul {
+
+  list-style: none;
+  padding-left: 5px;
+}
+
+#menu li {
+  float: left;
+  text-align: center;
+  line-height: 2.3em;
+ }
+#menu li.double-line {
+ line-height: 1.2em;
+}
+#menu a {
+  display: block;
+  padding: 3px 3px 3px 0;
+  width: 128px;
+  font-size: 13px;
+  color: #FFF;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+#menu li ul {
+  position: absolute;
+  left: -999em;
+  width: 153px;
+
+}
+
+#menu li:hover ul, #menu li ul:hover {
+  left:auto;
+  background: #999;
+  margin-left: 10px;
+}
+

@@ -1,0 +1,32 @@
+#menu{
+  position: relative;
+  border-bottom: 1px solid #ccc;
+}
+#menu ul{
+  border: 1px solid #ccc;
+  background: #ccc;
+  width: 420px;
+  margin: 0 auto;
+  padding: 5px;
+}
+
+#menu ul li:last-child{
+ border-right: none;
+}
+#menu ul li{
+  padding: 1px 15px;
+  display:  inline;
+  border-right: 1px solid #333;
+}
+
+#menu ul li a {
+  text-decoration: none;
+  font-weight: bold;
+  color: #333;
+}
+
+#login{
+  float: right;
+  margin-top: 10px;
+  margin-right: 5px;
+}

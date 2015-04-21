@@ -1,0 +1,19 @@
+div.fotografos div.fotografo{ 
+  overflow: auto;
+  clear: both;
+  margin-bottom: 20px; 
+ }
+
+div.fotografos div.foto{
+  position: relative;
+   float: left;
+  width: 200px;
+  margin-right: 20px;
+  margin-bottom: 0;
+  text-align: center;
+}
+div.descricao {vertical-align: middle; }
+div.fotografos div.descricao h2{
+  font-size: 16px;
+  margin-bottom: 10px;
+}

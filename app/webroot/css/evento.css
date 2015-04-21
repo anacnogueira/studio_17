@@ -1,0 +1,16 @@
+ul#cloud{
+  width: 40em;
+  margin: 0 auto;
+
+}
+ ul#cloud li{
+   margin: 2.0em;
+   line-height:200%;
+   display: inline;
+ }
+
+ul#cloud a{
+  text-decoration: none;
+  color: #CCC;
+  text-align: center;
+}
